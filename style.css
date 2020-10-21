@@ -1,0 +1,113 @@
+/*Colors and fonts*/
+
+
+h1{
+	color: #FF5B37;
+	font-family: Homemade Apple, cursive;
+	letter-spacing:5px;
+	font-size:25px;
+	font-weight: bold;
+	text-align: center;
+}
+body {
+	font-family: Open sans, sans-serif;
+	text-align: center;
+	}
+
+img{
+	width:340px;
+	height:420px;
+	box-shadow: 0px 0px 5px;
+}
+h2{
+	color:#5F5FE7;
+	font-size:30px;
+	font-family: Homemade Apple, cursive;
+}
+h3{
+	color: #FA8072; 
+	font-family: Homemade Apple, cursive;
+	font-size:20px;
+	font-weight: lighter;
+}
+p{
+	font-size:16px;
+	color:#222298;
+	font-weight: lighter;
+}
+a{
+	font-family: Homemade Apple, cursive;
+	color:#5F5FE7;
+	font-size:20px;
+}
+a:hover {
+	color:salmon;
+}
+
+/*Custom design with class*/
+
+.introduction{
+	padding: 30px;
+	margin: 80px 60px 0px 60px;
+	box-shadow: 0px 10px 20px salmon;
+	border-radius: 6px;
+	background: whitesmoke;
+}
+.element-design{
+	padding: 20px 20px;
+	margin: 80px 60px 0px 60px;
+	box-shadow: 0px 10px 20px salmon;
+	border-radius: 6px;
+	background: whitesmoke;
+}
+.btn-white {
+	background-color: #5F5FE7;
+	color: white;
+	padding: 20px 30px;
+}
+.btn-white:hover {
+	background-color: white;
+	color:salmon;
+} 
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 40px;
+}
+
+body {
+	background: -moz-linear-gradient(top, #FFD3B2 0%, #FF4233 100%);
+}
+
+/*Design adjustments using id*/
+
+#text-intro p {
+	margin-bottom: 30px;
+	margin-top:30px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
